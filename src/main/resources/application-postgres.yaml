@@ -1,0 +1,18 @@
+# Run against a real shared PostgreSQL instead of embedded H2:
+#   ./mvnw spring-boot:run -Dspring-boot.run.profiles=postgres
+# Multiple app instances may point at the same database — all coordination
+# (job claims, scheduler lock, rate-limit counters, uploaded file content)
+# lives in the DB.
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/orders
+    username: orders
+    password: orders
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      # embedded H2 uses create-drop; a shared persistent DB must not
+      ddl-auto: update
+
+ingest:
+  claim-dialect: postgres

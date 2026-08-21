@@ -1,0 +1,523 @@
+first_name,last_name,items,notes,tomorrow,meal
+Wade,Wilson,"Fried banana, Sweet tea, Apple pie, Classic chicken sandwich, Espresso, Croissant",,true,breakfast
+Alex,Summers,"Multigrain sandwich loaf
+Milkshakes (vanilla, chocolate, strawberry)
+Philly cheesesteak",,true,dinner
+Charles,Xavier,"Coleslaw, Croissant, Ciabatta rolls",,true,breakfast
+Shuri,Udaku,"Biscuits, Corned beef hash, Beef and broccoli",,true,breakfast
+Elsa,Bloodstone,"Chicken fried steak, 8-piece bone-in fried chicken (mixed), Rye loaf, Chocolate cake, Combination fried rice, Soup and half sandwich",,true,breakfast
+T'Challa,Udaku,Blueberry muffin,,true,dinner
+Carol,Danvers,"Ricotta and honey toast
+Rye loaf
+Butter and sea salt toast
+Ma po tofu
+Cold brew
+General Tso's chicken
+Meatloaf with mashed potatoes",,true,lunch
+America,Chavez,"Belgian waffle, Cold brew",,false,lunch
+Colleen,Wing,"Scallion pancake, Meatloaf with mashed potatoes, Unsweetened iced tea, Beef chow fun, Turkey and swiss",,false,breakfast
+Julia,Carpenter,French toast,,false,dinner
+Ben,Grimm,"Ham and cheese croissant
+Eggs Benedict
+Patty melt
+Almond croissant
+Scone of the day
+Multigrain sandwich loaf
+Blueberry pancakes
+Drip coffee",,false,breakfast
+Thaddeus,Ross,"French toast
+Mac and cheese
+Milkshakes (vanilla, chocolate, strawberry)
+Cappuccino
+Fortune cookies
+Philly cheesesteak
+Combination fried rice",,true,lunch
+Grant,Ward,"Philly cheesesteak, Beef chow fun, Fried banana, Blueberry muffin, Open-faced turkey sandwich, Buttermilk pancakes (short or full stack), Grilled chicken with roasted peppers",,false,lunch
+Susan,Storm,Club sandwich with fries,,false,dinner
+Isaiah,Bradley,"Sweet tea
+Soup and half sandwich
+4-piece dark meat
+General Tso's chicken",,false,breakfast
+Nathaniel,Richards,"Fried banana, Beef and broccoli, Chicken lo mein, Soup and half sandwich, Ciabatta rolls, Club sandwich with fries",,false,lunch
+John,Jameson,"Ricotta and honey toast
+Milkshakes (vanilla, chocolate, strawberry)
+Avocado toast
+Classic chicken sandwich
+Blueberry pancakes",Please ring doorbell twice,false,breakfast
+Alex,Summers,"Grilled cheese with tomato soup
+Belgian waffle
+Patty melt
+Croissant
+Steamed white rice
+Crab rangoon (6)
+Focaccia
+Meatloaf with mashed potatoes",No contact delivery preferred,true,dinner
+Cindy,Moon,Banana cream pie,,true,breakfast
+Scott,Summers,Unsweetened iced tea,,false,dinner
+Johnny,Blaze,"Wonton soup
+Caprese (mozzarella, tomato, basil)
+Cold brew
+Mashed potatoes and gravy
+8-piece bone-in fried chicken (mixed)
+Mac and cheese
+Seasoned fries
+Belgian waffle",Changed my mind - Hand it to me,true,dinner
+Neena,Thurman,"Scallion pancake, Tuna melt, Italian combo (salami, capicola, ham, provolone)","Changed my mind - Leave at door, don't knock (baby sleeping)",false,breakfast
+Erik,Selvig,"Roast beef with horseradish, Two eggs any style with bacon or sausage, hash browns, and toast, Avocado toast, Almond croissant
+",Buzz apartment 4B,false,lunch
+Ben,Reilly,"Biscuits and gravy, Sesame balls, Club sandwich with fries, Croissant, Mac and cheese",,true,dinner
+Johnny,Storm,"Chicken tenders (4 or 6)
+4-piece dark meat
+Turkey and swiss
+French toast",,false,dinner
+Peter,Quill,"Crab rangoon (6)
+Latte",,false,dinner
+Rahne,Sinclair,"Fortune cookies, Cherry pie à la mode, Pain au chocolat",,true,breakfast
+Obadiah,Stane,"Wonton soup
+Open-faced turkey sandwich
+Soup and half sandwich
+Chocolate cake",,false,breakfast
+Betsy,Braddock,"Apple pie, Ham and cheese croissant, Cherry pie à la mode, Banana cream pie, Chicken tenders (4 or 6)",,false,breakfast
+Arthur,Douglas,"Combination fried rice
+Chicken fried steak
+Multigrain sandwich loaf
+Ham and cheese croissant
+Italian meatball sub",,true,breakfast
+Steve,Rogers,"Lemonade, Multigrain sandwich loaf, Hot and sour soup, Sweet and sour pork, Western omelet",,false,dinner
+Betty,Brant,"Unsweetened iced tea
+Drip coffee
+Milkshakes (vanilla, chocolate, strawberry)
+Seasoned fries
+Egg rolls (2)",,false,lunch
+Clint,Barton,"French toast, Almond croissant",,false,lunch
+Ben,Grimm,"Blueberry muffin, Sesame balls, Apple pie, Chicken tenders (4 or 6)",,true,lunch
+Peter,Parker,"Unsweetened iced tea, , ",,false,dinner
+Johnny,Blaze,"Eggs Benedict, Chicken tenders (4 or 6), French toast, Tuna melt",,true,lunch
+Erik,Lehnsherr,"Lemon meringue pie, Sweet and sour pork, Eggs Benedict, Croissant, Italian combo (salami, capicola, ham, provolone), Singapore rice noodles, General Tso's chicken, Ma po tofu",,true,lunch
+Arthur,Douglas,"Singapore rice noodles
+Mashed potatoes and gravy
+Wonton soup
+Drip coffee",,false,breakfast
+Nathaniel,Essex,"Roast beef with horseradish
+Blueberry muffin
+Croissant
+Two eggs any style with bacon or sausage, hash browns, and toast
+Sesame balls
+Rye loaf
+Biscuits and gravy",,true,breakfast
+Sean,Cassidy,"Biscuits and gravy
+Mashed potatoes and gravy
+Chicken lo mein
+Chicken tenders (4 or 6)
+Chocolate cake",,true,dinner
+Anna Marie,LeBeau,"Combination fried rice
+Egg rolls (2)
+Scallion pancake
+Bone-in wings (6, 12, 24)
+General Tso's chicken
+Singapore rice noodles
+Wonton soup
+Beef chow fun",,true,dinner
+Susan,Storm,"Turkey and swiss
+Lemon meringue pie
+Chicken lo mein
+Grilled cheese with tomato soup
+Almond croissant
+Beef and broccoli
+Open-faced turkey sandwich
+Beef chow fun",Buzz apartment 4B,false,lunch
+Curt,Connors,"Grilled cheese with tomato soup, Lemon meringue pie, Chicken lo mein, Salt and pepper shrimp, Chicken fried steak, Open-faced turkey sandwich, Spicy fried chicken sandwich",,true,lunch
+Piotr,Rasputin,Sourdough boule,,false,dinner
+Betsy,Braddock,"Chicken lo mein
+Corn on the cob
+Soup and half sandwich
+Baguette
+Open-faced turkey sandwich
+French toast
+Classic chicken sandwich
+Beef and broccoli",Call when you arrive,true,dinner
+Norman,Osborn,"Sweet and sour pork
+Cherry pie à la mode
+Turkey and swiss
+Singapore rice noodles
+French toast
+Steamed white rice
+Sesame balls
+Veggie with hummus",,true,lunch
+Shuri,Udaku,"Lemonade, Apple pie, Grilled chicken with roasted peppers",,false,breakfast
+Thaddeus,Ross,"Steamed white rice, Egg rolls (2), Roast beef with horseradish, General Tso's chicken, Hot and sour soup, Crab rangoon (6), Cappuccino, Salt and pepper shrimp",,false,dinner
+John,Allerdyce,"Banana cream pie, Almond croissant, Hot tea selection, Tuna melt",,true,lunch
+Katy,Chen,"Pain au chocolat, Italian meatball sub, Coleslaw",,true,breakfast
+Victor,von Doom,"Eggplant with garlic sauce
+Salt and pepper shrimp
+Blueberry pancakes
+Rye loaf",,true,lunch
+Ivan,Vanko,"Seasoned fries
+Drip coffee
+Buttermilk pancakes (short or full stack)
+Grilled chicken with roasted peppers
+Chocolate cake
+Combination fried rice
+Ciabatta rolls
+Eggs Benedict",,false,lunch
+Eric,Brooks,"Club sandwich with fries, Cherry pie à la mode, Western omelet, Corned beef hash",,false,breakfast
+Wilson,Fisk,"Salt and pepper shrimp, Butter and sea salt toast, Blueberry muffin, Baguette",,true,breakfast
+Robert,Reynolds,"Hot tea selection
+Cappuccino
+Sweet tea
+Hot and sour soup
+Italian meatball sub
+Salt and pepper shrimp",Call when you arrive,true,dinner
+Daisy,Johnson,"Buttermilk pancakes (short or full stack), Italian combo (salami, capicola, ham, provolone), Baguette, Cappuccino, Scone of the day, Espresso",,true,lunch
+Carl,Lucas,Butter and sea salt toast,,false,lunch
+Karen,Page,"Butter and sea salt toast, Eggplant with garlic sauce",,true,dinner
+Grant,Ward,"Tuna melt
+Butter and sea salt toast
+Mashed potatoes and gravy",,true,breakfast
+Erik,Lehnsherr,"Cappuccino, Pork or vegetable dumplings, Pain au chocolat, Beef chow fun, Corn on the cob",,false,breakfast
+Robbie,Reyes,"Fortune cookies, Salt and pepper shrimp, Latte, Eggplant with garlic sauce, Grilled cheese with tomato soup, Pork or vegetable dumplings",,false,dinner
+Samuel,Sterns,General Tso's chicken,,false,breakfast
+Arnim,Zola,Combination fried rice,,true,breakfast
+Peter,Quill,"Grilled chicken with roasted peppers
+Chicken tenders (4 or 6)
+Drip coffee
+Chicken lo mein
+Italian combo (salami, capicola, ham, provolone)",,false,breakfast
+Michelle,Jones,"Coleslaw
+Soup and half sandwich
+Scone of the day
+Morning bun",,false,lunch
+Sean,Cassidy,"Seasoned fries, Salt and pepper shrimp, Classic chicken sandwich",,false,breakfast
+Betty,Brant,Cherry pie à la mode,,true,dinner
+Carl,Lucas,"Espresso, Ciabatta rolls, Cold brew, Italian meatball sub, Crab rangoon (6)",,false,lunch
+Ivan,Vanko,"Eggs Benedict, Sausage and onion, Chicken fried steak",,true,dinner
+Arnim,Zola,"Turkey and swiss, Seasoned fries, Lemonade, Grilled cheese with tomato soup, Latte",,true,dinner
+Misty,Knight,"Caprese (mozzarella, tomato, basil), Mac and cheese",,true,breakfast
+Richard,Rider,"Salt and pepper shrimp, Open-faced turkey sandwich, Cherry pie à la mode, Lemonade, Chocolate cake, Sweet tea, Spicy fried chicken sandwich, Milkshakes (vanilla, chocolate, strawberry)",Buzz apartment 4B,true,lunch
+Remy,LeBeau,"Classic chicken sandwich, Ciabatta rolls, Wonton soup, French toast, Rye loaf, Scone of the day, Multigrain sandwich loaf",,true,lunch
+Layla,El-Faouly,"Soup and half sandwich
+Drip coffee
+Veggie with hummus
+Roast beef with horseradish",,true,dinner
+Obadiah,Stane,Spicy fried chicken sandwich,,false,dinner
+Betsy,Braddock,"Chicken lo mein
+Salt and pepper shrimp
+Chicken tenders (4 or 6)
+Apple pie
+Ma po tofu
+Classic chicken sandwich",,false,dinner
+James,Rhodes,"Ricotta and honey toast, Chocolate cake, Eggs Benedict, Turkey and swiss",,false,lunch
+Amadeus,Cho,"Cherry pie à la mode, Seasoned fries, Combination fried rice",,true,dinner
+Johnny,Storm,"Chocolate cake, Caprese (mozzarella, tomato, basil), Seasoned fries, Patty melt",,false,dinner
+Jamie,Madrox,"Cherry pie à la mode
+French toast
+Lemonade
+",Extra sauce please!,true,breakfast
+Riri,Williams,Singapore rice noodles,,true,dinner
+Pepper,Potts,Buttermilk pancakes (short or full stack),,false,dinner
+Hank,McCoy,"Cherry pie à la mode
+Grilled cheese with tomato soup
+Italian meatball sub
+Pork or vegetable dumplings
+Soup and half sandwich
+Roast beef with horseradish
+Blueberry muffin
+Egg rolls (2)",,false,dinner
+Quentin,Beck,"Beef chow fun
+Italian meatball sub
+4-piece dark meat
+Meatloaf with mashed potatoes
+General Tso's chicken",,true,dinner
+Sean,Cassidy,"Hot tea selection, Buttermilk pancakes (short or full stack), Caprese (mozzarella, tomato, basil), Club sandwich with fries, Pork or vegetable dumplings, Oatmeal with brown sugar, Unsweetened iced tea",,false,breakfast
+Pepper,Potts,"Seasoned fries, Butter and sea salt toast, Hot and sour soup, Scone of the day, Cold brew, Almond croissant, Caprese (mozzarella, tomato, basil), Corned beef hash",,false,lunch
+Ulysses,Klaue,"Seasoned fries, Tuna melt, French toast, Ham and cheese croissant, Egg rolls (2)",,false,dinner
+Sharon,Carter,"General Tso's chicken
+Lemonade
+Meatloaf with mashed potatoes
+Chicken lo mein
+Mashed potatoes and gravy
+Chicken fried steak",,false,dinner
+Shuri,Udaku,"Biscuits
+Sausage and onion",,false,breakfast
+Susan,Storm,"4-piece dark meat, Lemon meringue pie",,true,lunch
+Wade,Wilson,"Fried banana
+Croissant
+Sweet tea
+Almond croissant",,false,dinner
+James,Howlett,"Chicken parmesan
+Sourdough boule
+Eggs Benedict
+Ham and cheese croissant
+Scone of the day",,false,lunch
+Wade,Wilson,"Eggs Benedict
+Almond croissant
+Club sandwich with fries
+Italian meatball sub
+Sweet and sour pork
+Latte
+General Tso's chicken
+Lemon meringue pie",,false,breakfast
+Maria,Hill,"Multigrain sandwich loaf
+Beef and broccoli
+Focaccia
+Scone of the day
+Buttermilk pancakes (short or full stack)
+Western omelet
+Cappuccino",,true,lunch
+Janet,van Dyne,"Chicken parmesan
+Soup and half sandwich
+Belgian waffle
+Tuna melt
+Hot tea selection",,true,dinner
+Laura,Kinney,"Patty melt, Sesame balls, Coleslaw, Biscuits, Seasoned fries, Hot and sour soup, Scallion pancake, Biscuits and gravy",,false,lunch
+Rahne,Sinclair,"Drip coffee
+Lemonade
+Ham and cheese croissant
+Hot and sour soup
+Beef and broccoli
+Multigrain sandwich loaf
+Chicken parmesan",Please ring doorbell twice,false,dinner
+Franklin,Nelson,"Grilled chicken with roasted peppers
+French toast
+Latte
+Multigrain sandwich loaf
+Hot and sour soup
+Philly cheesesteak
+Classic chicken sandwich",,true,lunch
+Gwen,Stacy,"Pain au chocolat
+Egg rolls (2)
+Combination fried rice",,false,lunch
+Carol,Danvers,"Lemon meringue pie, Eggs Benedict",,true,dinner
+Yelena,Belova,"Spicy fried chicken sandwich, Wonton soup, Caprese (mozzarella, tomato, basil), Patty melt, Lemonade, 4-piece dark meat",Allergic to peanuts - please ensure no cross contamination,false,dinner
+Anna Marie,LeBeau,"Mashed potatoes and gravy, Espresso, Eggs Benedict",,true,breakfast
+Wanda,Maximoff,"Bone-in wings (6, 12, 24), Cappuccino, Buttermilk pancakes (short or full stack), French toast, Drip coffee, Corn on the cob, Corned beef hash",,false,lunch
+Bill,Foster,Croissant,,true,lunch
+Wenwu,Xu,"Grilled cheese with tomato soup
+Egg rolls (2)
+Croissant
+Mac and cheese
+Blueberry pancakes
+Eggs Benedict
+Espresso",Changed my mind - Extra napkins please,false,lunch
+Zebediah,Killgrave,Roast beef with horseradish,,true,breakfast
+Ellie,Phimister,"Lemonade
+Croissant
+Baguette
+Crab rangoon (6)
+Grilled chicken with roasted peppers",,true,breakfast
+Brian,Braddock,"Espresso, Chocolate cake, Cherry pie à la mode, Morning bun",,false,lunch
+Rahne,Sinclair,"Drip coffee
+Butter and sea salt toast
+Coleslaw
+Ricotta and honey toast
+Mac and cheese
+Pain au chocolat
+Eggplant with garlic sauce
+Corned beef hash",,false,lunch
+Sylvie,Laufeydottir,", , Western omelet
+Multigrain sandwich loaf
+Egg rolls (2)
+Biscuits
+Corn on the cob
+Chicken tenders (4 or 6)
+Patty melt",,false,breakfast
+Adrian,Toomes,"Bone-in wings (6, 12, 24)
+Wonton soup
+Grilled cheese with tomato soup
+Italian meatball sub",,false,dinner
+Robert,Reynolds,"Eggs Benedict, Oatmeal with brown sugar, Pain au chocolat, Lemon meringue pie, Club sandwich with fries, Beef chow fun, Latte, Open-faced turkey sandwich",,true,lunch
+Max,Dillon,"Wonton soup, Blueberry pancakes, Fortune cookies, Latte, Roast beef with horseradish, Sesame balls, 8-piece bone-in fried chicken (mixed), Butter and sea salt toast",,false,dinner
+Pietro,Maximoff,"Ciabatta rolls, Beef chow fun, Steamed white rice, Beef and broccoli, Spicy fried chicken sandwich, Grilled cheese with tomato soup, Coleslaw, Baguette",,false,breakfast
+Steven,Grant,"Mashed potatoes and gravy, Chocolate cake, Hot and sour soup",,true,lunch
+Happy,Hogan,"Morning bun, , ",,false,dinner
+Thaddeus,Ross,"4-piece dark meat
+Cappuccino
+Philly cheesesteak
+Mac and cheese
+Rye loaf",,true,lunch
+Ellie,Phimister,"Roast beef with horseradish
+Multigrain sandwich loaf",,true,dinner
+Wanda,Maximoff,"Ham and cheese croissant
+Western omelet
+Club sandwich with fries
+Fried banana
+Spicy fried chicken sandwich",,true,dinner
+Ned,Leeds,"Latte
+Roast beef with horseradish",,true,dinner
+Shuri,Udaku,Baguette,,false,dinner
+Robbie,Reyes,Cappuccino,,false,lunch
+Namor,McKenzie,"Scone of the day, Biscuits and gravy, Almond croissant, Chicken tenders (4 or 6), Bone-in wings (6, 12, 24)",,false,lunch
+Victor,von Doom,"Drip coffee, Wonton soup, Rye loaf, Biscuits and gravy",,true,breakfast
+Mac,Gargan,"Lemon meringue pie
+Tuna melt
+Turkey and swiss",,true,lunch
+Mary Jane,Watson,"Beef chow fun, Butter and sea salt toast",,false,breakfast
+Robert,Reynolds,"Croissant
+French toast
+Pork or vegetable dumplings
+Caprese (mozzarella, tomato, basil)
+Veggie with hummus
+Sweet and sour pork",,false,breakfast
+Janet,van Dyne,"Classic chicken sandwich
+Grilled chicken with roasted peppers
+Soup and half sandwich
+Corned beef hash
+French toast
+Club sandwich with fries
+Belgian waffle",,true,dinner
+Tommy,Shepherd,"Hot tea selection, Bone-in wings (6, 12, 24), Eggs Benedict, Philly cheesesteak",,false,dinner
+Ulysses,Klaue,"Rye loaf, Patty melt, Grilled chicken with roasted peppers, Bone-in wings (6, 12, 24), Turkey and swiss, Combination fried rice, Italian meatball sub, Grilled cheese with tomato soup",,true,dinner
+Arthur,Douglas,Sweet and sour pork,,true,dinner
+Phil,Coulson,"Ma po tofu
+Soup and half sandwich
+Unsweetened iced tea
+Eggplant with garlic sauce
+Turkey and swiss
+Roast beef with horseradish",,true,dinner
+Charles,Xavier,"Singapore rice noodles
+Baguette
+Latte
+Oatmeal with brown sugar",,true,lunch
+Leo,Fitz,"Grilled chicken with roasted peppers, Chicken lo mein, Club sandwich with fries, Baguette",,false,dinner
+Hank,Pym,Ma po tofu,,false,dinner
+Bobby,Drake,"Chicken lo mein
+Chicken fried steak
+Classic chicken sandwich
+Focaccia
+Salt and pepper shrimp
+Ciabatta rolls
+Grilled chicken with roasted peppers",,true,breakfast
+Reed,Richards,"Egg rolls (2)
+General Tso's chicken
+Croissant
+Coleslaw
+Singapore rice noodles
+Western omelet
+Butter and sea salt toast",,true,dinner
+Betsy,Braddock,"Sausage and onion
+Classic chicken sandwich
+Chicken lo mein
+Grilled cheese with tomato soup
+Mac and cheese",,true,dinner
+Kurt,Wagner,"Caprese (mozzarella, tomato, basil)
+Almond croissant
+Turkey and swiss
+Chicken fried steak
+Cappuccino
+Pork or vegetable dumplings
+Philly cheesesteak",,false,breakfast
+Natasha,Romanoff,"Grilled cheese with tomato soup, Veggie with hummus",Buzz apartment 4B,false,dinner
+Alex,Summers,"Chicken fried steak
+Corn on the cob
+Cappuccino
+Combination fried rice
+Chocolate cake
+Baguette
+Chicken lo mein
+Blueberry pancakes",,true,dinner
+Eddie,Brock,"Coleslaw, Baguette, Scallion pancake, Sweet tea, Drip coffee",,false,dinner
+Simon,Williams,"Apple pie, Italian combo (salami, capicola, ham, provolone), Turkey and swiss, Eggplant with garlic sauce",,false,breakfast
+Kate,Bishop,"General Tso's chicken, Grilled cheese with tomato soup, Belgian waffle, Italian combo (salami, capicola, ham, provolone), Chocolate cake",,false,dinner
+Nathaniel,Richards,"Blueberry pancakes
+Corn on the cob
+Open-faced turkey sandwich",,true,breakfast
+Layla,El-Faouly,"Scallion pancake, Ma po tofu, Multigrain sandwich loaf, Combination fried rice, Open-faced turkey sandwich",,true,lunch
+Jennifer,Walters,"Wonton soup
+8-piece bone-in fried chicken (mixed)
+Scallion pancake",,true,lunch
+Pepper,Potts,"Salt and pepper shrimp, Drip coffee",,false,breakfast
+Helmut,Zemo,"Baguette
+Sweet and sour pork",,true,dinner
+Danny,Rand,"Eggplant with garlic sauce, Bone-in wings (6, 12, 24), Sourdough boule, Cherry pie à la mode, Coleslaw",,true,breakfast
+Thaddeus,Ross,"Butter and sea salt toast, Avocado toast, Chicken lo mein, Tuna melt",,false,lunch
+Miles,Morales,"Steamed white rice, Oatmeal with brown sugar, Sweet tea, Multigrain sandwich loaf, Roast beef with horseradish, Italian combo (salami, capicola, ham, provolone), Sesame balls",,true,dinner
+Carol,Danvers,"Spicy fried chicken sandwich
+Sweet and sour pork
+Singapore rice noodles
+Veggie with hummus",,false,lunch
+Illyana,Rasputina,"Italian combo (salami, capicola, ham, provolone), Sweet tea, Combination fried rice, Western omelet, Banana cream pie, Pain au chocolat, Blueberry muffin, Italian meatball sub",,false,lunch
+Kamala,Khan,Apple pie,,true,dinner
+Ben,Grimm,"
+Sourdough boule, Rye loaf, General Tso's chicken, Fortune cookies, Scone of the day, Steamed white rice, Pain au chocolat, Espresso",,false,lunch
+Bruce,Banner,"French toast, Butter and sea salt toast, Baguette, Cappuccino, Croissant",,false,dinner
+Ulysses,Klaue,"Drip coffee
+Blueberry muffin
+Butter and sea salt toast
+Italian combo (salami, capicola, ham, provolone)
+Chicken fried steak
+Ma po tofu
+Bone-in wings (6, 12, 24)
+Morning bun",,false,breakfast
+Charles,Xavier,"Ma po tofu
+Lemonade
+Drip coffee
+Italian meatball sub
+Fortune cookies",,true,breakfast
+Piotr,Rasputin,"Sweet tea, Sweet and sour pork, Chicken fried steak, Scone of the day, Ciabatta rolls, Cappuccino, Latte",Please ring doorbell twice,false,breakfast
+James,Rhodes,Beef and broccoli,,false,lunch
+Norrin,Radd,"Blueberry pancakes
+Chocolate cake
+Sweet and sour pork
+Chicken parmesan
+Soup and half sandwich
+Fried banana
+Two eggs any style with bacon or sausage, hash browns, and toast",,false,breakfast
+Tommy,Shepherd,"Focaccia
+Banana cream pie
+Multigrain sandwich loaf
+Spicy fried chicken sandwich
+Mac and cheese
+Club sandwich with fries
+Butter and sea salt toast
+Latte",,false,breakfast
+Maya,Lopez,"Western omelet, Singapore rice noodles, Philly cheesesteak, Ricotta and honey toast, Pork or vegetable dumplings, Lemonade",,true,lunch
+Jemma,Simmons,"Apple pie
+Seasoned fries
+Multigrain sandwich loaf",,true,dinner
+Happy,Hogan,"Two eggs any style with bacon or sausage, hash browns, and toast
+Buttermilk pancakes (short or full stack)
+Rye loaf
+French toast
+General Tso's chicken
+Almond croissant",,false,dinner
+Stephen,Strange,"Chocolate cake, Chicken fried steak, Beef and broccoli, Hot tea selection",,false,dinner
+Shuri,Udaku,"Ricotta and honey toast
+Drip coffee",,true,dinner
+Natasha,Romanoff,"Crab rangoon (6)
+Grilled chicken with roasted peppers
+Biscuits",Allergic to peanuts - please ensure no cross contamination,true,breakfast
+Steve,Rogers,"Philly cheesesteak, Baguette, Pork or vegetable dumplings, Cappuccino, Cold brew",,true,breakfast
+Colleen,Wing,"Bone-in wings (6, 12, 24)
+Spicy fried chicken sandwich",Call when you arrive,false,breakfast
+Nathaniel,Essex,Veggie with hummus,,true,breakfast
+Sylvie,Laufeydottir,"Grilled cheese with tomato soup, Corn on the cob, Lemonade, Fried banana, Soup and half sandwich, Seasoned fries, Hot and sour soup, Multigrain sandwich loaf",,true,lunch
+Valeria,Richards,"Butter and sea salt toast
+Mashed potatoes and gravy
+Unsweetened iced tea
+Cold brew",,true,breakfast
+Lorna,Dane,"Chicken fried steak, Club sandwich with fries, Soup and half sandwich, Grilled chicken with roasted peppers, Eggs Benedict, Sausage and onion",,false,breakfast
+Charles,Xavier,Philly cheesesteak,,true,lunch
+Illyana,Rasputina,"Milkshakes (vanilla, chocolate, strawberry), Patty melt, General Tso's chicken, Corn on the cob, Two eggs any style with bacon or sausage, hash browns, and toast",,false,dinner
+Betsy,Braddock,Western omelet,,true,lunch
+Peter,Parker,"Ricotta and honey toast, Pork or vegetable dumplings, Belgian waffle, Turkey and swiss, Wonton soup, Sweet tea",,false,lunch
+Cindy,Moon,"Biscuits and gravy, Focaccia, Sweet tea, Mac and cheese, Combination fried rice, Multigrain sandwich loaf, Oatmeal with brown sugar, Chicken fried steak",,true,dinner
+Pietro,Maximoff,"Unsweetened iced tea
+Ham and cheese croissant
+Apple pie
+Banana cream pie",,true,lunch
+Peggy,Carter,Belgian waffle,,true,lunch
+Mary Jane,Watson,"Ricotta and honey toast, Coleslaw",,false,lunch
+Norman,Osborn,"Morning bun, Mac and cheese, Baguette",,false,lunch
+Emma,Frost,"Steamed white rice, Italian meatball sub",,true,dinner
+Namor,McKenzie,Egg rolls (2),,false,breakfast
+Ororo,Munroe,"Mashed potatoes and gravy
+Belgian waffle",,true,breakfast
+Anna Marie,LeBeau,Coleslaw,,false,breakfast
+Thaddeus,Ross,"Club sandwich with fries
+Biscuits
+Roast beef with horseradish
+Grilled cheese with tomato soup
+Coleslaw
+Scone of the day
+Steamed white rice
+Chicken fried steak",,false,lunch

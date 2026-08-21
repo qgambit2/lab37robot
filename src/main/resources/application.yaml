@@ -1,0 +1,92 @@
+# the app serves on the same port the poller targets, so the mock polling
+# endpoint can live inside this app (the app polls itself)
+server:
+  port: 8081
+
+spring:
+  application:
+    name: order-processing
+  jackson:
+    # omit null fields from all JSON responses
+    default-property-inclusion: non-null
+  datasource:
+    url: jdbc:h2:mem:orders;DB_CLOSE_DELAY=-1;MODE=PostgreSQL;DATABASE_TO_LOWER=TRUE;DEFAULT_NULL_ORDERING=HIGH
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: ""
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    open-in-view: false
+  h2:
+    console:
+      enabled: true
+  sql:
+    init:
+      # schema.sql (shedlock table) must also run against non-embedded DBs
+      mode: always
+  task:
+    scheduling:
+      pool:
+        size: 25
+
+ingest:
+  poll-interval: 5s
+  batch-size: 1000
+  # dialect of the atomic job-claim statement: h2 (FINAL TABLE) or
+  # postgres (UPDATE … RETURNING)
+  claim-dialect: h2
+  # CSV intake endpoint the mock upload ({"uploadFile": "orders_1.csv"} on
+  # POST /mocks/controls) posts to — this app's own ingest route
+  endpoint: http://localhost:8081/v1/ingest
+  # where the mock upload finds its sample CSVs
+  mock-data-dir: classpath:order-sources/
+
+webhook:
+  # transiently failed (ERROR) entries are retried until this many attempts
+  max-retries: 5
+  # how often the async webhook_queue consumer runs
+  poll-interval: 10s
+  # webhook intake endpoint the mock replay ({"sendWebhookTraffic": true} on
+  # POST /mocks/controls) fires sample events at — this app's own webhook route
+  endpoint: http://localhost:8081/v1/webhook
+  mock-data-file: classpath:order-sources/webhook_orders.jsonl
+
+polling:
+  # external orders API polled for deltas via ?time_since= — points at this
+  # app's own port, where the mock endpoint lives
+  endpoint: http://localhost:8081/mocks/orders
+  poll-interval: 10s
+  # async consumer of the api_order_queue (per-order retryable processing)
+  queue-poll-interval: 10s
+  max-retries: 5
+  # the mock starts disabled and is toggled at runtime via
+  # POST /mocks/controls {"pollingApiEnabled": true} (e.g. from the demo UI)
+  mock-data-file: classpath:order-sources/api_responses.jsonl
+  # log each received poll response; disable in production for performance
+  log-responses: true
+
+dispatch:
+  # meal windows are wall-clock times in the zone they name; the zone's own
+  # DST rules apply when converting to UTC at scheduling time, so "07:00 PST"
+  # is 7am Pacific year-round (short ids like PST/EST map to their real
+  # zones; full ids like America/New_York work too; no zone means UTC)
+  windows:
+    breakfast: { start: "07:00 PST", end: "09:00 PST" }
+    lunch: { start: "11:30 PST", end: "13:30 PST" }
+    dinner: { start: "17:30 PST", end: "19:30 PST" }
+  # immediate orders (webhook / polling API) are cancelled if not
+  # dispatched to the robot within this long of being received
+  immediate-cancel-after: 30m
+  # robot rate limit: max dispatches per minute (sliding window over
+  # the current + previous minute counters in orders_processed)
+  max-per-minute: 100
+  # how often the dispatch loop looks for due orders. Kept short so the last
+  # tick of each minute lands near the minute boundary: the sliding-window
+  # budget reserves ceil(prev * remaining-fraction) for the previous minute,
+  # so a late last tick wastes less of the rate limit (~98/min at 10s vs
+  # ~92/min at 30s)
+  poll-interval: 10s
+  # how often the freshness sweep closes stale CREATED orders (missed meal
+  # window / aged past immediate-cancel-after) as UNFULFILLED
+  sweep-interval: 15m
